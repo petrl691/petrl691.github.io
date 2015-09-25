@@ -1,27 +1,89 @@
 body {
-    background-color: gray; 
-    color: #cfe8e6;
-    font-size: 30px;
-    font-family: Helvetica, arial, sans-serif;
+    background-color: grey; 
+   
 }
-.top {
-	width: 0;
-	height: 0;
+.first { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+}
+.third { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+}
+
+.fifth {
+ width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+}
+
+.top { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid pink;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid purple;
+	display: inline-block;
+}
+.sixth{ 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid purple;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
 	border-bottom: 100px solid pink;
+	display: inline-block;
 }
-.top {
-	width: 0;
-	height: 0;
+       
+.seventh{ 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.eighth{ 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid purple;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
 	border-bottom: 100px solid pink;
+	display: inline-block;
 }
-.top {
-	width: 0;
-	height: 0;
+.ninth{ 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+
+.last { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid purple;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
 	border-bottom: 100px solid pink;
+	display: inline-block;
 }
