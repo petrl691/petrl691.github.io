@@ -1,0 +1,27 @@
+body {
+    background-color: gray; 
+    color: #cfe8e6;
+    font-size: 30px;
+    font-family: Helvetica, arial, sans-serif;
+}
+.top {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid pink;
+}
+.top {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid pink;
+}
+.top {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid pink;
+}
