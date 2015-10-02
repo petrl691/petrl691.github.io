@@ -2,6 +2,7 @@ body {
     background-color: grey; 
    
 }
+
 .first { 
    width: 0; 
    height: 0;
@@ -11,7 +12,19 @@ body {
 	border-bottom: 100px solid white;
 	display: inline-block;
 }
+
 .third { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+
+
+.fourth { 
    width: 0; 
    height: 0;
    border-top: 120px solid black;
@@ -24,29 +37,19 @@ body {
 .fifth {
  width: 0; 
    height: 0;
-   border-top: 120px solid black;
+   border-top: 120px solid white;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 100px solid white;
-	display: inline-block;
-}
-
-.top { 
-   width: 0; 
-   height: 0;
-   border-top: 120px solid pink;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-bottom: 100px solid purple;
+	border-bottom: 100px solid black;
 	display: inline-block;
 }
 .sixth{ 
    width: 0; 
    height: 0;
-   border-top: 120px solid purple;
+   border-top: 120px solid black;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 100px solid pink;
+	border-bottom: 100px solid white;
 	display: inline-block;
 }
        
@@ -62,10 +65,10 @@ body {
 .eighth{ 
    width: 0; 
    height: 0;
-   border-top: 120px solid purple;
+   border-top: 120px solid black;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 100px solid pink;
+	border-bottom: 100px solid white;
 	display: inline-block;
 }
 .ninth{ 
@@ -76,14 +79,552 @@ body {
 	border-right: 50px solid transparent;
 	border-bottom: 100px solid black;
 	display: inline-block;
-}
+} 
 
-.last { 
+.tenth { 
    width: 0; 
    height: 0;
-   border-top: 120px solid purple;
+   border-top: 120px solid black;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 100px solid pink;
+	border-bottom: 100px solid white;
 	display: inline-block;
+}
+.eleventh { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.twelve { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+}
+.thirteen { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.fourteen { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+}
+.fifteen { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.sixteen { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+}
+.seventeen { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.eighteen { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+}
+.nineteen { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.twenty { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+}
+.twentyone { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.twentytwo { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.twentythree { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+}
+.twentyfour { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.twentyfive { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+}
+.twentysix { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.twentyseven { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.twentyeight { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+}
+.twentynine { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+
+.thirty { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+}
+
+
+.thirtyone { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+
+.thirtytwo {
+ width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+}
+.thirtythree{ 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+       
+.thirtyfour{ 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+}
+.thirtyfive{ 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.thirtysix{ 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+} 
+
+.thirtyseven{ 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.thirtyeight { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+}
+.thirtynine { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.fourty { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+}
+.fourtyone { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.fourtytwo { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+}
+.fourtythree{ 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.fourtyfour { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+}
+.fourtyfive { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.fourtysix{ 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+}
+.fourtyseven { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.fourtyeight { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+}
+.fourtynine { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.fifty { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+}
+.fiftyone { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.fiftytwo { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
+	display: inline-block;
+}
+.fiftythree { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.heart { 
+ position: static;
+
+}
+.heart:before, .heart:after {
+   position: absolute;
+   content: "";
+   left: 70px; top: 300;
+   width: 70px;
+   height: 115px;
+   background: blue;
+   -moz-border-radius: 50px 50px 0 0;
+   border-radius: 50px 50px 0 0;
+   -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   -webkit-transform-origin: 0 100%;
+   -moz-transform-origin: 0 100%;
+   -ms-transform-origin: 0 100%;
+   -o-transform-origin: 0 100%;
+   transform-origin: 0 100%;
+}
+.heart:after { 
+left: 0; 
+   -webkit-transform: rotate(45deg); 
+   -moz-transform: rotate(45deg); 
+   -ms-transform: rotate(45deg); 
+   -o-transform: rotate(45deg);
+   transform: rotate(45deg);
+   -webkit-transform-origin: 100% 100%;
+   -moz-transform-origin: 100% 100%;
+   -ms-transform-origin: 100% 100%;
+   -o-transform-origin: 100% 100%;
+   transform-origin :100% 100%;
+}
+.hearttwo { 
+ position: static;
+}
+.hearttwo:before, .hearttwo:after {
+   position: absolute;
+   content: "";
+   left: 70px; top: 70;
+   width: 70px;
+   height: 115px;
+   background: blue;
+   -moz-border-radius: 50px 50px 0 0;
+   border-radius: 50px 50px 0 0;
+   -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   -webkit-transform-origin: 0 100%;
+   -moz-transform-origin: 0 100%;
+   -ms-transform-origin: 0 100%;
+   -o-transform-origin: 0 100%;
+   transform-origin: 0 100%;
+}
+.hearttwo:after { 
+left: 0; 
+   -webkit-transform: rotate(45deg); 
+   -moz-transform: rotate(45deg); 
+   -ms-transform: rotate(45deg); 
+   -o-transform: rotate(45deg);
+   transform: rotate(45deg);
+   -webkit-transform-origin: 100% 100%;
+   -moz-transform-origin: 100% 100%;
+   -ms-transform-origin: 100% 100%;
+   -o-transform-origin: 100% 100%;
+   transform-origin :100% 100%;
+}
+.heartthree{ 
+ position: static;
+}
+.heartthree:before, .heartthree:after {
+   position: absolute;
+   content: "";
+   left: 70px; top: 525;
+   width: 70px;
+   height: 115px;
+   background: blue;
+   -moz-border-radius: 50px 50px 0 0;
+   border-radius: 50px 50px 0 0;
+   -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   -webkit-transform-origin: 0 100%;
+   -moz-transform-origin: 0 100%;
+   -ms-transform-origin: 0 100%;
+   -o-transform-origin: 0 100%;
+   transform-origin: 0 100%;
+}
+.heartthree:after { 
+left: 0; 
+   -webkit-transform: rotate(45deg); 
+   -moz-transform: rotate(45deg); 
+   -ms-transform: rotate(45deg); 
+   -o-transform: rotate(45deg);
+   transform: rotate(45deg);
+   -webkit-transform-origin: 100% 100%;
+   -moz-transform-origin: 100% 100%;
+   -ms-transform-origin: 100% 100%;
+   -o-transform-origin: 100% 100%;
+   transform-origin :100% 100%;
+}
+.heartfour{ 
+ position: static;
+}
+.heartfour:before, .heartfour:after {
+   position: absolute;
+   content: "";
+   left: 70px; top: 740;
+   width: 70px;
+   height: 115px;
+   background: blue;
+   -moz-border-radius: 50px 50px 0 0;
+   border-radius: 50px 50px 0 0;
+   -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   -webkit-transform-origin: 0 100%;
+   -moz-transform-origin: 0 100%;
+   -ms-transform-origin: 0 100%;
+   -o-transform-origin: 0 100%;
+   transform-origin: 0 100%;
+}
+.heartfour:after { 
+left: 0; 
+   -webkit-transform: rotate(45deg); 
+   -moz-transform: rotate(45deg); 
+   -ms-transform: rotate(45deg); 
+   -o-transform: rotate(45deg);
+   transform: rotate(45deg);
+   -webkit-transform-origin: 100% 100%;
+   -moz-transform-origin: 100% 100%;
+   -ms-transform-origin: 100% 100%;
+   -o-transform-origin: 100% 100%;
+   transform-origin :100% 100%;
 }
