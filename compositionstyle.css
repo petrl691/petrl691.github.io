@@ -12,6 +12,9 @@ body {
 	border-bottom: 100px solid white;
 	display: inline-block;
 }
+.first:hover {
+	   border-bottom: 100px solid pink;
+}
 
 .third { 
    width: 0; 
@@ -23,6 +26,9 @@ body {
 	display: inline-block;
 }
 
+.third:hover {
+	   border-top: 120px solid pink;
+}
 
 .fourth { 
    width: 0; 
@@ -32,6 +38,9 @@ body {
 	border-right: 50px solid transparent;
 	border-bottom: 100px solid white;
 	display: inline-block;
+}
+.fourth:hover {
+	   border-bottom: 100px solid pink;
 }
 
 .fifth {
@@ -43,6 +52,9 @@ body {
 	border-bottom: 100px solid black;
 	display: inline-block;
 }
+.fifth:hover {
+	   border-top: 120px solid pink;
+}
 .sixth{ 
    width: 0; 
    height: 0;
@@ -52,7 +64,9 @@ body {
 	border-bottom: 100px solid white;
 	display: inline-block;
 }
-       
+  .sixth:hover {
+	   border-bottom: 100px solid pink;
+}    
 .seventh{ 
    width: 0; 
    height: 0;
@@ -61,6 +75,9 @@ body {
 	border-right: 50px solid transparent;
 	border-bottom: 100px solid black;
 	display: inline-block;
+}
+.seventh:hover {
+	   border-top: 120px solid pink;
 }
 .eighth{ 
    width: 0; 
@@ -71,6 +88,9 @@ body {
 	border-bottom: 100px solid white;
 	display: inline-block;
 }
+.eighth:hover {
+	   border-bottom: 100px solid pink;
+}
 .ninth{ 
    width: 0; 
    height: 0;
@@ -80,6 +100,9 @@ body {
 	border-bottom: 100px solid black;
 	display: inline-block;
 } 
+.ninth:hover {
+	   border-top: 120px solid pink;
+}
 
 .tenth { 
    width: 0; 
@@ -90,6 +113,9 @@ body {
 	border-bottom: 100px solid white;
 	display: inline-block;
 }
+.tenth:hover {
+	   border-bottom: 100px solid pink;
+}
 .eleventh { 
    width: 0; 
    height: 0;
@@ -98,6 +124,9 @@ body {
 	border-right: 50px solid transparent;
 	border-bottom: 100px solid black;
 	display: inline-block;
+}
+.eleventh:hover {
+	   border-top: 120px solid pink;
 }
 .twelve { 
    width: 0; 
@@ -216,7 +245,7 @@ body {
 	border-bottom: 100px solid black;
 	display: inline-block;
 }
-.twentyfive { 
+.twentyfive {
    width: 0; 
    height: 0;
    border-top: 120px solid black;
@@ -234,16 +263,8 @@ body {
 	border-bottom: 100px solid black;
 	display: inline-block;
 }
+
 .twentyseven { 
-   width: 0; 
-   height: 0;
-   border-top: 120px solid white;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-bottom: 100px solid black;
-	display: inline-block;
-}
-.twentyeight { 
    width: 0; 
    height: 0;
    border-top: 120px solid black;
@@ -252,211 +273,227 @@ body {
 	border-bottom: 100px solid white;
 	display: inline-block;
 }
-.twentynine { 
+.twentyeight { 
    width: 0; 
    height: 0;
    border-top: 120px solid white;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
 	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.twentynine { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
 	display: inline-block;
 }
 
 .thirty { 
    width: 0; 
    height: 0;
-   border-top: 120px solid black;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-bottom: 100px solid white;
-	display: inline-block;
-}
-
-
-.thirtyone { 
-   width: 0; 
-   height: 0;
    border-top: 120px solid white;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
 	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.thirtyone { 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid white;
 	display: inline-block;
 }
 
 .thirtytwo {
  width: 0; 
    height: 0;
-   border-top: 120px solid black;
+   border-top: 120px solid white;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 100px solid white;
+	border-bottom: 100px solid black;
 	display: inline-block;
 }
 .thirtythree{ 
    width: 0; 
    height: 0;
-   border-top: 120px solid white;
+   border-top: 120px solid black;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 100px solid black;
+	border-bottom: 100px solid white;
 	display: inline-block;
 }
        
 .thirtyfour{ 
    width: 0; 
    height: 0;
-   border-top: 120px solid black;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-bottom: 100px solid white;
-	display: inline-block;
-}
-.thirtyfive{ 
-   width: 0; 
-   height: 0;
    border-top: 120px solid white;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
 	border-bottom: 100px solid black;
 	display: inline-block;
 }
-.thirtysix{ 
+.thirtyfive{ 
    width: 0; 
    height: 0;
    border-top: 120px solid black;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
 	border-bottom: 100px solid white;
+	display: inline-block;
+}
+.thirtysix{ 
+   width: 0; 
+   height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
 	display: inline-block;
 } 
 
 .thirtyseven{ 
    width: 0; 
    height: 0;
-   border-top: 120px solid white;
+   border-top: 120px solid black;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 100px solid black;
+	border-bottom: 100px solid white;
 	display: inline-block;
 }
 .thirtyeight { 
    width: 0; 
    height: 0;
-   border-top: 120px solid black;
+   border-top: 120px solid white;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 100px solid white;
+	border-bottom: 100px solid black;
 	display: inline-block;
 }
 .thirtynine { 
    width: 0; 
    height: 0;
-   border-top: 120px solid white;
+   border-top: 120px solid black;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 100px solid black;
+	border-bottom: 100px solid white;
 	display: inline-block;
 }
 .fourty { 
    width: 0; 
    height: 0;
-   border-top: 120px solid black;
+   border-top: 120px solid white;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 100px solid white;
+	border-bottom: 100px solid black;
 	display: inline-block;
 }
 .fourtyone { 
    width: 0; 
    height: 0;
-   border-top: 120px solid white;
+   border-top: 120px solid black;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 100px solid black;
+	border-bottom: 100px solid white;
 	display: inline-block;
 }
 .fourtytwo { 
    width: 0; 
    height: 0;
-   border-top: 120px solid black;
+   border-top: 120px solid white;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 100px solid white;
+	border-bottom: 100px solid black;
 	display: inline-block;
 }
 .fourtythree{ 
    width: 0; 
    height: 0;
-   border-top: 120px solid white;
+   border-top: 120px solid black;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 100px solid black;
+	border-bottom: 100px solid white;
 	display: inline-block;
 }
 .fourtyfour { 
    width: 0; 
    height: 0;
-   border-top: 120px solid black;
+   border-top: 120px solid white;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 100px solid white;
+	border-bottom: 100px solid black;
 	display: inline-block;
 }
 .fourtyfive { 
    width: 0; 
    height: 0;
-   border-top: 120px solid white;
+   border-top: 120px solid black;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 100px solid black;
+	border-bottom: 100px solid white;
 	display: inline-block;
 }
 .fourtysix{ 
    width: 0; 
    height: 0;
-   border-top: 120px solid black;
+   border-top: 120px solid white;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 100px solid white;
+	border-bottom: 100px solid black;
 	display: inline-block;
 }
 .fourtyseven { 
    width: 0; 
    height: 0;
-   border-top: 120px solid white;
+   border-top: 120px solid black;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 100px solid black;
+	border-bottom: 100px solid white;
 	display: inline-block;
 }
 .fourtyeight { 
    width: 0; 
    height: 0;
-   border-top: 120px solid black;
+   border-top: 120px solid white;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 100px solid white;
+	border-bottom: 100px solid black;
 	display: inline-block;
 }
 .fourtynine { 
    width: 0; 
    height: 0;
-   border-top: 120px solid white;
+   border-top: 120px solid black;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 100px solid black;
+	border-bottom: 100px solid white;
 	display: inline-block;
 }
 .fifty { 
    width: 0; 
    height: 0;
+   border-top: 120px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+	display: inline-block;
+}
+.fiftyone { 
+   width: 0; 
+   height: 0;
    border-top: 120px solid black;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
 	border-bottom: 100px solid white;
 	display: inline-block;
 }
-.fiftyone { 
+.fiftytwo { 
    width: 0; 
    height: 0;
    border-top: 120px solid white;
@@ -465,7 +502,7 @@ body {
 	border-bottom: 100px solid black;
 	display: inline-block;
 }
-.fiftytwo { 
+.fiftythree { 
    width: 0; 
    height: 0;
    border-top: 120px solid black;
@@ -474,7 +511,7 @@ body {
 	border-bottom: 100px solid white;
 	display: inline-block;
 }
-.fiftythree { 
+.fiftyfour { 
    width: 0; 
    height: 0;
    border-top: 120px solid white;
