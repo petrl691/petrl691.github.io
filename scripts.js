@@ -1,10 +1,18 @@
-console.log("hello");
+var pattern = ["@","*","//","#",":)"];
 
-var symbols= ["()", "*",")("];
+var word = [" javascript makes me insane "];
 
-var pattern= ["()","*",")("];
+for (var increment = 0; increment < 50; increment++) {
+    word = word + pattern;
+    console.log(pattern);
+    console.log(word);
+    
 
-for (var increment=100; increment>symbols.length; increment--)
-
-console.log(pattern);
-
+var idk = "???";
+if (increment>15) {
+        for (var another = 0; another < 10; another++)
+        console.log(idk);
+    
+    
+}
+}
