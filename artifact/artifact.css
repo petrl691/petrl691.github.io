@@ -1,0 +1,190 @@
+.containertwo {
+    width:100%;
+    height:800px;
+}
+#one {
+    width:50%;
+    height:800px;
+    float:left;
+    background-color:#2feeb6;
+    background-image:
+    linear-gradient(
+        #2feeb6, #8ff7ff);
+}
+
+#three {
+    width:50%;
+    height:800px;
+    float:left;
+     background-color: #6a81db;
+  background-image:
+        linear-gradient(
+        magenta, #6a81db);
+}
+
+.crackone {
+    width: 140px;
+	height:110px;
+	position:absolute;
+	left:520px;
+	top: 400px;
+	z-index:2;
+	background-image: url("crackone.png");
+}
+.cracktwo {
+    width: 53px;
+	height:110px;
+	position:absolute;
+	left:715px;
+	top: 355px;
+	z-index:2;
+	background-image: url("cracktwo.png");
+}
+
+.crackthree {
+    width: 100px;
+	height:65px;
+	position:absolute;
+	left:645px;
+	top: 509px;
+	z-index:2;
+	background-image: url("crackthree.png");
+}
+
+.crackfour {
+    width: 100px;
+	height:65px;
+	position:absolute;
+	left:660px;
+	top: 450px;
+	z-index:2;
+	background-image: url("crackfour.png");
+}
+
+.crackfive {
+    width: 158px;
+	height:150px;
+	position:absolute;
+	left:765px;
+	top: 380px;
+	z-index:2;
+	background-image: url("crackfive.png");
+}
+
+.cracksix {
+    width:50px;
+	height:170px;
+	position:absolute;
+	left:600px;
+	top: 240px;
+	z-index:2;
+	background-image: url("cracksix.png");
+}
+
+.crackseven {
+    width:50px;
+	height:130px;
+	position:absolute;
+	left:770px;
+	top: 258px;
+	z-index:2;
+	background-image: url("crackseven.png");
+}
+
+.verti-egg {
+  background: #222;
+	width: 400px;
+	height: 500px;
+	z-index:1;
+	position: absolute;
+	background-color:white;
+	top:200px;
+	left: 520px;
+	margin:auto;
+
+	-webkit-border-radius: 50%/60% 60% 40% 40%;
+	-moz-border-radius: 50%/60% 60% 40% 40%;
+	border-radius: 50%/60% 60% 40% 40%;
+
+	-webkit-box-shadow: 0px 0px 20px #D5D3D3, 0px 0px 20px #D5D3D3;
+	-moz-box-shadow: 0px 0px 20px #D5D3D3, 0px 0px 20px #D5D3D3;
+	box-shadow: 0px 0px 20px #D5D3D3, 0px 0px 20px #D5D3D3;
+}
+
+.verti-egg:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.crackone:hover {
+animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.cracktwo:hover {
+animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.crackthree:hover {
+animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.crackfour:hover {
+animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.crackfive:hover {
+animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.cracksix:hover {
+animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.crackseven:hover {
+animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+
