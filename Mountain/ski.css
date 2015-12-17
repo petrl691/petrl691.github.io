@@ -1,0 +1,79 @@
+body { 
+    margin: 0px;
+    background-color: transparent;
+    width:0px;
+    height:0px;
+}
+    
+html { 
+  background: url(signbackground.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position:absolute;
+}
+
+.circle { 
+    border-radius:50%;
+    position:relative;
+    width:10px;
+    height:10px;
+    background-color: white;
+    animation-duration: 5s; 
+    animation-name: falling;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling {
+    0%   {top: 0px; background-color:transparent;}
+    25%  {top: 50px;background-color:white;}
+    40%  {top: 100px;background-color:white;}
+    50%  {top: 200px;background-color:white;}
+    60%  {top: 300px;background-color:white;}
+    75%  {top: 400px;background-color:white;}
+    100% {top:500px;background-color:transparent;}
+}
+
+.easysign {
+    position:fixed;
+    top:35%;
+    left:17%;
+
+}
+
+.intermediatesign{
+    position:fixed;
+    top:43%;
+    left:17%;
+    
+}
+
+.difficultsign{
+    position:fixed;
+    top:50%;
+    left:17%;
+}
+
+.extreamesign{
+    position:fixed;
+    top:57%;
+    left:17%;
+}
+
+.terrainsign{
+    position:fixed;
+    top:65%;
+    left:17%;
+}
+
+#wrapper{
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+    background-color:transparent
+}
+
+
+    

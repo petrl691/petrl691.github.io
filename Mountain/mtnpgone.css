@@ -1,0 +1,54 @@
+html { 
+  background: url(mtnbackground.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position:absolute;
+}
+
+body {
+	height:0px;
+}
+
+
+a {
+	border: none;
+	left:100px;
+}
+
+.centerone {
+  position: fixed;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);;
+}
+
+.centertwo {
+  position: fixed;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);;
+}
+
+.circle { 
+    border-radius:50%;
+    position:relative;
+    width:10px;
+    height:10px;
+    background-color: white;
+    animation-duration: 5s; 
+    animation-name: falling;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling {
+    0%   {top: 0px; background-color:transparent;}
+    25%  {top: 50px;background-color:white;}
+    40%  {top: 100px;background-color:white;}
+    50%  {top: 200px;background-color:white;}
+    60%  {top: 300px;background-color:white;}
+    75%  {top: 400px;background-color:white;}
+    100% {top:500px;background-color:transparent;}
+}
