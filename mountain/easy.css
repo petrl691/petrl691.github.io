@@ -13,9 +13,15 @@ body {
     height: 0px;
 }
 
-#treeone {
+head {
+    height:1000px;
+    width:1000px;
+    
+}
+
+.treeone {
     position:fixed;
-    left:590px;
+    left:44%;
     top: 100px;
     
 }
@@ -33,7 +39,7 @@ body {
 }
 
 @keyframes falling {
-    0%   {top: 0px; background-color:transparent; }
+    0%   {top: 0px; background-color:transparent;}
     25%  {top: 50px;background-color:white;}
     40%  {top: 100px;background-color:white;}
     50%  {top: 200px;background-color:white;}
@@ -72,4 +78,38 @@ body {
    border-bottom: 13px solid transparent;
 }
 
+.skione{
+    position:absolute;
+    top:200px;
+    display:none;
+    
+}
 
+.skitwo{
+    position:absolute;
+    left:60%;
+    top:30%;
+    display:none;
+    
+}
+
+.mitten{
+    position:absolute;
+    left:50%;
+    top:20%;
+    display:none;
+}
+
+.poles{
+    position:absolute;
+    left:300px;
+    top:40px;
+    display:none;
+}
+
+.rock {
+    position:absolute;
+    top:70%;
+    left:30%;
+ 
+}

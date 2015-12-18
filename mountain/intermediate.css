@@ -12,3 +12,18 @@ html {
 body {
     height: 0px;
 }
+
+.goggles {
+  left:18%;
+  top:15%;
+  position:absolute;
+  opacity:0.9;
+  display:none;
+}
+
+.gogglesbutton {
+  position:absolute;
+  height:180px;
+  top:-50%;
+  left:-70%;
+}

@@ -16,3 +16,13 @@ $(document).ready(
             $("#fall").toggle("slow");
         });
     });
+    
+$(document).ready(
+    function(){
+        $(".rock").click(function () {
+            $(".skione").toggle("slow");
+             $(".skitwo").toggle("slow");
+              $(".mitten").toggle("slow");
+               $(".poles").toggle("slow");
+        });
+    });
