@@ -13,7 +13,7 @@ body {
     height: 0px;
 }
 
-.goggles {
+#goggles {
   left:18%;
   top:15%;
   position:absolute;
@@ -21,9 +21,10 @@ body {
   display:none;
 }
 
-.gogglesbutton {
+#gogglesbutton {
   position:absolute;
   height:180px;
   top:-50%;
-  left:-70%;
+  left:10%;
 }
+

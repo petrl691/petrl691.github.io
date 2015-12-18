@@ -1,3 +1,4 @@
+
 $(document).ready(
     function(){
         $(".gogglesbutton").click(function () {
@@ -5,3 +6,4 @@ $(document).ready(
             $(".gogglesbutton").hide();
         });
  });
+ 
