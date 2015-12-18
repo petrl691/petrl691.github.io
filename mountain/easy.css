@@ -1,5 +1,5 @@
 html { 
-  background: url(easyslope.jpg) no-repeat center center fixed; 
+  background: url(easyslope.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -15,7 +15,7 @@ body {
 
 #treeone {
     position:fixed;
-    left:550px;
+    left:590px;
     top: 100px;
     
 }
@@ -44,8 +44,8 @@ body {
    
 #fall {
    display:none;
-   width: 600px;
-   height: 400px;
+   width: 300px;
+   height: 200px;
    background: red;
    position: relative;
    -moz-border-radius:    10px;
@@ -56,6 +56,7 @@ body {
    line-height: 90px;
    font-size:500%;
    font-family: helvetica;
+   color:white;
    
 }
 #fall:before {

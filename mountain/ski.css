@@ -38,33 +38,28 @@ html {
 
 .easysign {
     position:fixed;
-    top:35%;
+    top:40%;
     left:17%;
 
 }
 
 .intermediatesign{
     position:fixed;
-    top:43%;
+    top:50%;
     left:17%;
     
 }
 
-.difficultsign{
-    position:fixed;
-    top:50%;
-    left:17%;
-}
 
 .extreamesign{
     position:fixed;
-    top:57%;
+    top:60%;
     left:17%;
 }
 
 .lodgesign{
     position:fixed;
-    top:65%;
+    top:70%;
     left:17%;
 }
 
