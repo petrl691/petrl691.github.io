@@ -22,6 +22,6 @@ body {
 }
 
 .gogglesbutton {
-  position:fixed;;
+  position:absolute;
 }
 

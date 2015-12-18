@@ -12,7 +12,7 @@ $(this).css("left",newLeft);
 
 $(document).ready(
     function(){
-        $("#treeone").click(function () {
+        $(".treeone").click(function () {
             $("#fall").toggle("slow");
         });
     });
