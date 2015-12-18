@@ -1,0 +1,74 @@
+html { 
+  background: url(easyslope.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position:absolute;
+  min-width:100%;
+  min-height:100%;
+}
+
+body {
+    height: 0px;
+}
+
+#treeone {
+    position:fixed;
+    left:550px;
+    top: 100px;
+    
+}
+
+.circle { 
+    border-radius:50%;
+    position:relative;
+    width:5px;
+    height:5px;
+    background-color: white;
+    animation-duration: 5s; 
+    animation-name: falling;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling {
+    0%   {top: 0px; background-color:transparent; }
+    25%  {top: 50px;background-color:white;}
+    40%  {top: 100px;background-color:white;}
+    50%  {top: 200px;background-color:white;}
+    60%  {top: 300px;background-color:white;}
+    75%  {top: 400px;background-color:white;}
+    100% {top: 500px;background-color:transparent;}
+}
+   
+#fall {
+   display:none;
+   width: 600px;
+   height: 400px;
+   background: red;
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+   text-align: center;
+   vertical-align: middle;
+   line-height: 90px;
+   font-size:500%;
+   font-family: helvetica;
+   
+}
+#fall:before {
+   display:none;
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid red;
+   border-bottom: 13px solid transparent;
+}
+
+
